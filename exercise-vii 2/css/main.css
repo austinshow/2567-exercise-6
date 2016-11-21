@@ -433,6 +433,8 @@ figure {
 
 @media screen and (max-width: 768px) {
 	
+/* 3.0 Columns*/
+	
 .col-1-4 {
 	width: 100%;
 }
@@ -451,7 +453,11 @@ figure {
 
 
 @media screen and (max-width: 480px) {
+
+/*1.0 Typography */
 	
+/* 1.1 Headers */
+
 h1 {
     font-size: 4.5rem;
     background-color: rgba(255,255,255,.5);
@@ -460,16 +466,33 @@ h1 {
     padding: 20px;
 }
 
+/* 2.0 Navigation*/
 
-nav
+/*2.1 Main Menu*/
+
+nav {
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+nav li {
+	font-size: 1.2rem;
+	padding-bottom: 20px;
+}
+
+/*3.0 Columns*/
+
+.col-1-6 {
+	width: 100%;
+}
 
 .col-3-5 {
 	width: 100%;
-
 }
 	
 .col-1-2 {
 	width: 100%;
+	text-align: center;
 }
 
 .col-1-4 {
