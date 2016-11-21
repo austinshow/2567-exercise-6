@@ -36,7 +36,7 @@ html {
 }
 body {
 	font-family: 'Open Sans', sans-serif;
-	color: white;
+	color: #fff;
 }
 /*--------------------------------------------------------------
 1.1 - BODY
@@ -68,8 +68,8 @@ h2 {
 }
 
 h3 {
-	font-weight: 300;
-	font-size: 2rem;
+	font-weight: 500;
+	font-size: 1.4rem;
 }
 h4 {
 	margin-bottom: 0;
@@ -115,6 +115,7 @@ input:focus, textarea:focus {
 :-ms-input-placeholder {  
    color: white;  
 }
+
 form a {
 	margin-top: 20px;
 	padding:10px 20px;
@@ -231,7 +232,6 @@ figure {
 
 .col-1-4 {
 	width: 25%;
-	padding-bottom: 0;
 }
 
 .col-1-5 {
@@ -433,5 +433,53 @@ figure {
 
 @media screen and (max-width: 768px) {
 	
+.col-1-4 {
+	width: 100%;
+}
+
+.col-1-2 {
+	width: 100%;
+} 
+
+.col-1-4:last-child {
+	padding-right: 28px;
+}
+		
+}
+
+
+
+
+@media screen and (max-width: 480px) {
+	
+h1 {
+    font-size: 4.5rem;
+    background-color: rgba(255,255,255,.5);
+    line-height: 5rem;
+    text-align: center;
+    padding: 20px;
+}
+
+
+nav
+
+.col-3-5 {
+	width: 100%;
+
+}
+	
+.col-1-2 {
+	width: 100%;
+}
+
+.col-1-4 {
+	width: 100%;
+	padding-left: 28px;
+}
+
+.col-1-4:last-child {
+	padding-left: 28px;
+}
 	
 }
+
